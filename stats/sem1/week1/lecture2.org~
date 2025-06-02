@@ -1,0 +1,44 @@
+* Understanding Data
+** What is data?
+In order to learn, we need to collect data.
+**Data** is the facts and figures that are collected, analyzed and summarized for presentation and interpration.
+Statistics relies on data, i.e information around us.
+
+** Why do we collect data?
+- Because we're interested in characteristics of some group or groups of people, things, places or events.
+- For example:
+  - We want to know the weather in the city of Chennai over the past few months or years.
+  - We want to study the literacy rates of the various states.
+  - We want to know how many models of cars of a certain company were sold and hence find the most popular one.
+
+** Data collection
+- If data is available : Published data. (e.g data.gov.in)
+- If data isn't available : Need to collect, generate data.
+
+** Types of data
+For data in a database to be usefull, we need to know the context behind the text and numbers it holds.
+When they're scattered and unorganized, these texts and numbers are of little to no use for us. Since this type of data doesn't have any structure to it, it is called **unstructured data**.
+Hence the need to organize such data arises.
+A **dataset** is a **structured** collection of data. It is a collection of values which could be numbers, names, roll number etc. In essence we have provided context to the numbers and text in a data set.
+
+*** Variables and Cases
+| Name    | Fees Paid (INR) | Marks Obtained (/100) |
+| Anjali  |           30000 |                    75 |
+| Bernard |           30000 |                    96 |
+| Callum  |           30000 |                    69 |
+| Deepak  |          300000 |                    72 |
+
+Say this table represents the students enrolled in a B.Sc Comp. Sc. course. Here we see that the fees paid is same for all students. It's not varying at all!, We can't really get anything interesting from this column as it is same for everyone.
+The Marks obtained on the other hand are **varying**, hence we can derrive something interesting from this column.
+
+- **Case(Observation)** : A unit from which data is collected.
+- **Variable** :
+  - Intuitively it is something that varies.
+  - Formally it is a characteristic or attribute that varies across all units.
+
+In this case **Fees Paid** is not a variable since it doesn't vary but **Marks** is a variable. Even if there is one entry that is different then it would be considered a variable.
+Also in our table Anjali, Bernard, Callum etc. are the **Cases** or observations and Marks obtained is a **variable**.
+
+- In a tabular data set
+  - **Rows** represent **cases** i.e for each case same attribute is recorded.
+  - **Columns** may or may not represent **variables** as seen in our B.Sc table. For each variable same type of value in each case is recorded.

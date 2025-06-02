@@ -1,0 +1,23 @@
+* Basic Definations
+Statistics : The art of learning from data is known as statistics. It is concerened with the collecting, describing and analyzing data.
+
+** Major Branches of Statistics
+1. Description : The branch of statistics that is concerened with describing and summarization of data is known as descriptive statistics.
+2. Inference   : The branch of statistics that deals with drawing conclusions from the given data set is known as inferential statistics.
+
+* Population and Sample
+1. Population : The set of all elements that we're interested in is called population.
+2. Sample : A subgroup of population that will be studied in detail is called a sample. A good sample needs to be representative
+of the population.
+
+For example:
+    - If we want to know the percentage of students in India who have passed class 12th and are studying engineering.
+      - **Population** -> The total students in India.
+      - **Sample** -> The total number of engineering students in India.
+
+* Purpose of Statistical Analysis
+- If the purpose of the analysis is to examine and explore information for its own intrinsic interest only, the study is descriptive.
+- A descriptve study may be done on a population or a sample.
+- If the purpose of the analysis is to draw conclusion from a sample of a population about the population itself, the study is inferential.
+- When an inference is made on a population based on information gathered from a sample, then the study becomes inferential.
+  
